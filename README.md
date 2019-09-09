@@ -1,2 +1,2 @@
 # Facial-Recognition-Attendance
-Taking attendance in a classs using facial recognition
+Taking attendance in a class using facial recognition
