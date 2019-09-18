@@ -19,8 +19,8 @@ known_face_encodings = [
     zanark_face_encoding
 ]
 known_face_names = [
-    "Zanark",
-    "Omm"
+    "Omm",
+    "Zanark"
 ]
 
 # Initialize some variables
