@@ -1,9 +1,10 @@
 # Omniscient Eye
 A model which checks whether students are paying attention to the lecture or not. Creepy? yeah.
 
-<div style="text-align:center">
-<img src="./imgs/meme.png" alt="Creepy eh?">
-</div>
+
+<p align="center">
+  <img src="./imgs/meme.png" alt="Creepy eh?"/>
+</p>
 
 <br><br>
 
