@@ -15,14 +15,7 @@ Morover the teacher is unable to determine exactly how many students do not have
 
 ## Proposed Work
 
-
-
-
-Convolutional Neural Network (CNN), a branch of deep learning architectures and a part of Machine Learning, was used as a method in this application. The experiments were conducted through several stages such as face detection, image improvement and model formation.
-
-
-
-
+To avoid wastage of valuable lecture time inside a class that usually gets spent on taking attendance and evaluating if their are any falacies in the roll calls and to provide the teacher with a summary of how many students are interested in the subject lecture which will help the teacher to improve the quality of teh lecture if need be which will greatly improve the performance of the students in the examinations of their respective subjects.
 
 <br>
 
@@ -32,6 +25,38 @@ Convolutional Neural Network (CNN), a branch of deep learning architectures and 
 
 
 <br><br>
+
+Convolutional Neural Network (CNN), a branch of deep learning architectures and a part of Machine Learning, was used as a method in this application. The experiments were conducted through several stages such as face detection, image improvement and model formation.
+
+
+- First, snaps of the classroom after every 10 mins are analysed and used for facial recognition. The faces recognized in the majority of the images are provided with the attendance. If someone were to attend only the first half of the class and then ditch the rest, then he wont recieve any attendance. The attendance is then fed to the database hosted on the cloud.
+
+- The next step is to predict or guess the behaviour of the students in the class by detecting the emotions on the faces of the students and analysing the skeletal poses of the students. This analysis helps us to review the lecture of the subject being taught and provide the lecturer with a result of how many students were interested in the class and an average interactivity factor of the classroom.
+
+- It is made sure that the data predicted by the model at any point of the process is kept anonymous. If the teacher asks for a disclosure then he can be provided with the data after taking permission form the concerned authorities.
+
+
+
+## Existing Work
+
+1. [face_recognition](https://github.com/ageitgey/face_recognition): The world's simplest facial recognition api for Python and the command line.
+
+2. [Mask R-CNN](https://github.com/matterport/Mask_RCNN): for object detection and instance segmentation on Keras and TensorFlow.
+
+3. [Pose2Seg](https://github.com/liruilong940607/Pose2Seg): Detection Free Human Instance Segmentation
+
+## Conclusion
+
+To conclude, the primary aim of recording the attendance without any mannual intervention is achieved on an almost-satisfactory level, however this application will also help a teacher to better understand the interests of his students and help them learn and focus better in a class.
+
+
+## Future Work
+
+- We plan to implement pos2seg in your application to better predict the behaviour of the students and achieve higher accuracy while creating a mask of the students
+
+- We aim to make the program perform on realtime speeds so that it can recieve more input data which will further improve the accuracy of the models.
+
+- We plan to make the whole application feasible for low devices with low computing powers hence making it less resource intensive.
 
 ## Contributors
 
