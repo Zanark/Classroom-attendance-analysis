@@ -59,7 +59,7 @@ To conclude, the primary aim of recording the attendance without any mannual int
 
 ## Future Work
 
-- We plan to implement pos2seg in your application to better predict the behaviour of the students and achieve higher accuracy while creating a mask of the students
+- We plan to implement pos2seg in our application to better predict the behaviour of the students and achieve higher accuracy while creating a mask of the students
 
 - We aim to make the program perform on realtime speeds so that it can recieve more input data which will further improve the accuracy of the models.
 
