@@ -1,5 +1,11 @@
-# Classroom Attendance Analysis
-A model which checks whether students are paying attention to the lecture or not.
+# Omniscient Eye
+A model which checks whether students are paying attention to the lecture or not. Creepy? yeah.
+
+<div style="text-align:center">
+<img src="./imgs/meme.png" alt="Creepy eh?">
+</div>
+
+<br><br>
 
 ## Abstract
 
