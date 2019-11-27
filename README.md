@@ -28,7 +28,7 @@ To avoid wastage of valuable lecture time inside a class that usually gets spent
 
 ## Flow Chart
 
-![flowchart](./imgs/flowchart.png)
+![flowchart](./imgs/flowchart-dark.png)
 
 
 <br><br>
